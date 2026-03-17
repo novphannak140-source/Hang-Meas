@@ -124,7 +124,7 @@ function Home() {
           <p className="mb-2 cursor-pointer hover:text-blue-600">
             Privacy Policy
           </p>
-          <p>© 2026 Jobify (Cambodia) Co., Ltd. All Rights Reserved.</p>
+          <p>© 2026 Hang Meas (Cambodia) All Rights Reserved.</p>
         </div>
       </div>
     </div>
