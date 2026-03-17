@@ -10,7 +10,7 @@ function Home() {
           <img
             src={Job}
             alt="Workplace"
-            className="w-full h-48 sm:h-56 md:h-64 lg:h-100 object-cover"
+            className="w-full h-90 sm:h-45 md:h-130 lg:h-170 object-cover"
           />
 
           {/* Content */}
@@ -79,17 +79,17 @@ function Home() {
                 <h3 className="text-xl font-bold mb-3">How to apply</h3>
 
                 <div className="list-decimal pl-5 text-gray-700 space-y-2">
-                  <li>Please register Jobify Account</li>
-                  <li>
-                    Click{" "}
-                    <span className="text-blue-600 underline">
-                      create or upload CV
-                    </span>
-                  </li>
+                  <li>Please register a Telegram account</li>
+
                   <li>
                     After creating your CV, apply for a job by clicking the
-                    <span className="font-semibold"> Apply Now </span> button.
-                    Jobify will review your CV.
+                    <span className="font-semibold">
+                      {" "}
+                      <a href="" className="text-blue-500">
+                        Apply Now{" "}
+                      </a>
+                    </span>{" "}
+                    button. Hang Meas will review your CV.
                   </li>
                 </div>
               </div>
@@ -112,7 +112,7 @@ function Home() {
                 </div>
                 Job Image Job Title Job Detail (Salary, Age, Experience...) QR
                 Code Apply Button How to Apply Contact Us 📍 Address 📞 Phone ✉️
-                Email 🕒 Time Google Map 
+                Email 🕒 Time Google Map
               </div>
             </div>
           </div>

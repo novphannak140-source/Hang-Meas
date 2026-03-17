@@ -11,7 +11,7 @@ function Navbar() {
   ];
 
   return (
-    <div className="bg-white shadow-md sticky top-0  z-50 ">
+    <div className="bg-white shadow-md sticky top-0 pt-1 z-50 ">
       <div className="max-w-7xl overflow-hidden mx-auto px-4  ">
         <div className="flex justify-between items-center  h-16">
           {/* Logo */}
@@ -43,7 +43,7 @@ function Navbar() {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="md:hidden flex flex-col gap-4 mt-4 pb-4 text-gray-700 font-medium">
+          <div className="md:hidden flex flex-col gap-4  mt-4 pb-4 text-gray-700 font-medium">
             {links.map((item, index) => (
               <Link
                 key={index}
